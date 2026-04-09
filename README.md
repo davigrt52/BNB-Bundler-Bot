@@ -1,6 +1,6 @@
 # BNB Sniper / Bundler Volume Bot
 
-Hardhat project for BNB Smart Chain (BSC) that builds signed transaction bundles and submits them through [bloXroute](https://bloxroute.com/). It targets PancakeSwap V3–style flows (Uniswap V3 SDK, BSC addresses in `constants/`).
+Hardhat project for BNB Smart Chain (BSC) that builds signed transaction bundles and submits them through [bloXroute](https://bloxroute.com/). It targets PancakeSwap V3–style flows (Uniswap V3 SDK, BSC addresses in `constants/`). Maintained under [QuantyraLab/BNB-Bundler-Bot](https://github.com/QuantyraLab/BNB-Bundler-Bot).
 
 ## Requirements
 

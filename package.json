@@ -11,13 +11,14 @@
     "sniper",
     "bundler",
     "bloxroute",
-    "defi"
+    "defi",
+    "quantyra"
   ],
   "author": "soljesty",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rustjesty/bnb-sniper-bundler-volume-bot"
+    "url": "https://github.com/QuantyraLab/BNB-Bundler-Bot"
   },
   "engines": {
     "node": ">=16.0.0",
